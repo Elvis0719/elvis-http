@@ -1,0 +1,31 @@
+{
+  "name": "elvis-http",
+  "version": "1.0.0",
+  "description": "Elvis's personal http server creater",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elvis0719/elvis-http.git"
+  },
+  "keywords": [
+    "elvis-http"
+  ],
+  "author": "Elvis Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Elvis0719/elvis-http/issues"
+  },
+  "homepage": "https://github.com/Elvis0719/elvis-http#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "numeral": "^2.0.6",
+    "socket.io": "^2.1.1"
+  }
+}
