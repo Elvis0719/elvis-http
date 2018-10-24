@@ -63,7 +63,11 @@ module.exports = (
   }
 
   const error = (error, req, res, next) => {
-    res.status(500)
+    if (error instanceof Error400) {
+      res.status(400)
+    } else {
+      res.status(500)
+    }
     process.env.NODE_DEV === 'production'
       ? res.send({ error: error.message })
       : res.send({ error: error.message, stack: error.stack })
