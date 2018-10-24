@@ -1,6 +1,6 @@
 {
   "name": "elvis-http",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Elvis's personal http server creater",
   "main": "index.js",
   "scripts": {
